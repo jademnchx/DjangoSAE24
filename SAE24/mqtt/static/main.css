@@ -32,7 +32,7 @@ nav a {
 
 section {
     display:inline-block;
-    width:49%;
+    width:49.5%;
     height:70vh;
     background-color:lightblue;
     border-radius:20px;
@@ -53,8 +53,23 @@ table > tbody > tr > th, table > tbody > tr > td{padding:20px;border:1px solid #
 table > tbody > tr > th{background:#009fe3;color:#EEE;font-size:18px;}
 
 h1 {
-text-align: center;
+    text-align:center;
+    background-color:lightblue;
+    margin: 0 0 4% 0;
+
 }
+li {
+    text-align:center;
+    padding: 1% 0 1% 0;
+    list-style-type:none;
+}
+.back {
+    background-color:transparent    ;
+    margin-top:5%;
+
+
+}
+
 table{
 border-collapse: collapse;
 margin-top:50px;
