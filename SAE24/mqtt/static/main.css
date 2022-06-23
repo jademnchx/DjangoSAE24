@@ -1,0 +1,75 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    margin:0;
+    font-weight:200;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+{padding:0;margin:0}
+body{background:#EEE;font-family: 'Montserrat', sans-serif;}
+
+nav {
+    background-color:lightblue;
+    text-align:center;
+    padding:1%;
+}
+
+nav a {
+    font-size:24px;
+    text-decoration:none;
+    font-weight:200;
+
+
+
+}
+
+section {
+    display:inline-block;
+    width:49%;
+    height:70vh;
+    background-color:lightblue;
+    border-radius:20px;
+}
+section a {
+    text-decoration: none;
+    font-size:50px;
+    margin-top:30%;
+    text-align:center;
+    display:inline-block;
+    width:100%;
+
+}
+
+
+table{border-collapse: collapse;margin-top:50px;}
+table > tbody > tr > th, table > tbody > tr > td{padding:20px;border:1px solid #00b3ff;background:white;font-family:tahoma;width:200px;text-align:center;}
+table > tbody > tr > th{background:#009fe3;color:#EEE;font-size:18px;}
+
+h1 {
+text-align: center;
+}
+table{
+border-collapse: collapse;
+margin-top:50px;
+margin-left: 25%;
+}
+table > tbody > tr > th, table > tbody > tr > td{
+padding:20px;
+border:1px solid black;
+background:white;
+font-family:tahoma;
+width:100px;
+text-align:center;
+}
+table > tbody > tr > th{
+background:lightblue;
+color: black;
+font-size:18px;
+}
